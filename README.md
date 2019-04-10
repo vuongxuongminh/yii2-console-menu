@@ -29,7 +29,7 @@ composer require vxm/yii2-console-menu
 ### Quick Setup
 
 <p align="center">
-    <img src="resouce/demo_0.png" width="100%">
+    <img src="resource/demo_0.png" width="100%">
 </p>
 
 ```php
