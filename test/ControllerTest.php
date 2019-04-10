@@ -28,7 +28,6 @@ class ControllerTest extends TestCase
     public function testMenu()
     {
         $controller = $this->mockController();
-        $controller->run('menu');
         $this->assertTrue($controller->run('menu-test'));
     }
 
