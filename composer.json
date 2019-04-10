@@ -1,0 +1,35 @@
+{
+    "name": "vxm/yii2-console-menu",
+    "description": "Pretty console menu for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","console-menu"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vuong Minh",
+            "email": "vuongxuongminh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": ">=2.0.13",
+        "nunomaduro/laravel-console-menu": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "vxm\\consoleMenu\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "bootstrap": "vxm\\consoleMenu\\Bootstrap"
+    }
+}
